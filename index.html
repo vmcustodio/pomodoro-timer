@@ -6,17 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
-    <span id="min">00</span>
-    <span>:</span>
-    <span id="sec">00</span>
-
-    <br>
-
-    <button id="play">PLAY</button>
-    <button id="pause">PAUSE</button>
-    <button id="reset">RESET</button>
+    <div class="cellphone-container">
+        <span class="notch"></span>
+        <div class="time-container">
+            <div class="time">
+                <span id="min">00</span>
+                <span>:</span>
+                <span id="sec">00</span>
+            </div>
+            
+            <button id="play"> <i data-feather="play-circle"> </i></button>
+            <button id="pause"> <i data-feather="pause-circle"> </i> </button>
+            <button id="reset"> <i data-feather="refresh-ccw"> </i></button>
+        </div>
+    </div>
 </body>
-    <script type="text/javascript" src="./index.js"></script>
+    <script type="text/javascript" src="./index.js">
+    </script>
 </html>

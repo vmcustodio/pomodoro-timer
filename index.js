@@ -11,7 +11,7 @@ pauseButton.addEventListener('click', pauseCounter);
 resetButton.addEventListener('click', resetCounter);
 
 updateDom();
-
+feather.replace();
 function startCounter() {
   timer = setInterval(() => {
     timeInSeconds--;

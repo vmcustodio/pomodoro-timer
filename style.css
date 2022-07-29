@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&family=Sniglet&display=swap');
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.cellphone-container {
+    width: 350px;
+    height: 700px;
+    border-radius: 45px;
+    border: 20px solid #111;
+    background: rgb(37, 36, 36);
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+.notch {
+    width: 180px;
+    height: 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 0 0 30px 30px;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 90px);
+}
+
+.time-container {
+    position: absolute;
+    top: 30%;
+    left: calc(50% - 150px);
+    width: 300px;
+    height: 300px;
+    font-weight: bold;
+    font-size: 82px;
+}
+
+button {
+    background-color: rgb(37, 36, 36);
+    border-radius: 50%;
+    border: none;
+    color: white;
+}
+
+svg {
+    width: 40px;
+    height: 40px;
+}
